@@ -1,3 +1,29 @@
+.menuCard{
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0 0 8px gray;
+  background-color: #fff;
+  padding: 16px;
+}
+.menuCard_wrapper{
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 48px 48px;
+}
 .menuCard_name {
+  font-size: 2rem;
+  font-weight: bold;
+
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.menuCard_number{
+  font-size: 1.3rem;
+}
+.menuCard_price{
+  font-size: 200%;
   font-weight: bold;
 }
